@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="Pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário </title>
+</head>
+<body>
+    <h1>Inscrição para o evento Tech 2026</h1>
+    <p>Por favor, preencha os dados abaixo para se inscrever no evento.</p>
+
+    <form action="">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+
+            <label for="nome">Nome Completo:</label><br>
+            <input type="text" name="nome" placeholder="Ex: Otavio Rocha"><br><br>
+
+            <label for="email">E-mail:</label><br>
+            <input type="email" name="email" placeholder="Ex: otavio.rocha@email.com"><br><br>
+
+            <label for="senha">Senha:</label><br>
+            <input type="password" name="senha" placeholder="Digite sua senha"><br><br>
+
+            <label for="Data">Data de nascimento:</label><br>
+            <input type="date" name="nascimento">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Informações do Evento</legend>
+            <label for="ingresso">Tipo de Ingresso:</label><br>
+            <select name="ingresso" id="ingresso">
+                <option value="vip">VIP</option>
+                <option value="padrao" selected>Padrão</option>
+                <option value="estudante">Estudante</option>
+            </select><br><br>
+
+            <label>Tamanho da Camiseta:</label><br>
+            <input type="radio" id="p" name="camiseta" value="p">
+            <label for="p">Pequeno(P)</label><br>
+
+            <input type="radio" id="m" name="camiseta" value="m">
+            <label for="m">Médio(M)</label><br>
+
+            <input type="radio" id="g" name="camiseta" value="g">
+            <label for="g">Grande(G)</label><br>
+            
+                
+        </fieldset>
+
+
+        <button type="submit">Enviar Formulário</button>
+        <button type="reset">Apagar Dados</button>
+    </form>
+</body>
+</html>
