@@ -1,0 +1,15 @@
+table {
+    background-color: rgb(177, 155, 255);
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td{
+    border: 2px solid black;
+    height: 30px;
+}
+
+img{
+    width: 100px;
+    
+}
