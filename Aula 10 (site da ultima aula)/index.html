@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css ">       
+</head>
+<body>
+    <header>
+        <h1>minhas notas 2026</h1>
+    </header>
+
+    <main>
+        <section class="form-section">
+            <h2>Adicionar Nota</h2>
+            <form action="form-nota" id="form-nota" method="post"></form>
+            <label for="titulo">Título:</label>
+            <input type="text" name="titulo" id="titulo" required placeholder="Digite o título da nota">
+           
+            <label for="conteudo">Conteúdo:</label>
+            <textarea name="conteudo" id="conteudo" rows="4" required placeholder="escreva a sua nota aqui"></textarea>
+
+            <button type="submit" id="butao">Salvar Nota</button>
+        </section>
+        
+        <br><br>
+
+        <section class="notes-section">
+           <h2>minhas notas</h2>
+            <div id="container-notas" class="container-notas">
+
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

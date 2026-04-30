@@ -1,0 +1,43 @@
+.form-section{
+    background-color: #f5e3e3;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 2px;
+}
+
+.form-section h2{
+    text-align: left;
+    color: #000000;
+}
+
+.form-section label{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+    color: #500505;
+}
+
+.form-section input[type="text"],
+.form-section textarea{
+    padding: 5px;
+    font-family: Arial, sans-serif;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.form-section button{
+    background-color: #500505;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+}
+
+.notes-section{
+    background-color: #f3b4b4;
+    padding: 5px;
+    border-radius: 5px;
+}

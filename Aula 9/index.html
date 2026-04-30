@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sugestões 2026</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Sugestões</h1>
+    </header>
+    
+    <main>
+        <section class="form-section">
+            <h2>Adicionar Nova Sugestão</h2>
+            <form id="form-sugestao" method="POST">
+                <label for="titulo">Nome</label>
+                <input type="text" id="titulo" name="titulo" required placeholder="Digite o seu nome">
+
+                <label for="Motivo">Motivo:</label>
+                <input type="text" id="Motivo" name="Motivo" required placeholder="Digite o motivo da sugestão">
+
+                <label for="conteudo">Conteúdo:</label>
+                <textarea id="conteudo" name="conteudo" rows="4" required placeholder="Escreva sua sugestão aqui..."></textarea>
+
+                <button type="submit">Salvar Sugestão</button>
+            </form>
+        </section>
+        
+        <br>
+
+        <section class="notas-section">
+            <h2>Minhas Sugestões</h2>
+            <div id="container-sugestoes" class="container-notas">
+                </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
