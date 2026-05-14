@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(148, 78, 78);
+}
+
+img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 20px;
+    margin-bottom: 15px;
+    opacity: 0.8;
+}   
+
